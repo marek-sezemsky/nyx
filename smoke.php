@@ -152,11 +152,10 @@ function show_person($name, $date, $brand, $quantity, $price, $why, $weekly = fa
         show_person("GASPODA", "16-Jan-2010", "LM Lights", 0.5, 66, "");
         show_person("MATHEW", "14-Mar-2011", "Start", "0.8", "64", "");
         show_person("PRASOPES", "12-Dec-2011", "LM", "0.35", "72", "");
+
+	// ** 2012 **
         show_person("SEZI", "11-Jan-2012", "Start", "1.2", "65", "");
-
-
-        // hall of shame
-        // show_person("CHEESS", "05-Jun-2007", "Startky", "1", "50", "");
+        show_person("VYKTORYJE", "02-Feb-2012", "Camel", "0.75", "76", "");
 
         // suma
         show_person("", "", "", "", "", "");
