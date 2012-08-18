@@ -149,13 +149,14 @@ function show_person($name, $date, $brand, $quantity, $price, $why, $weekly = fa
         show_person("GRED", "16-Aug-2009", "Start", .75, 60, "");
         show_person("SHADOWPLAYER", "04-Dec-2009", "", 1, 180, "");
         // fuuuuuuu show_person("SEZI", "23-Apr-2010", "Start", 1.5, 62, "");
-        show_person("GASPODA", "16-Jan-2010", "LM Lights", 0.5, 66, "");
+  	// show_person("GASPODA", "16-Jan-2010", "LM Lights", 0.5, 66, "");
         show_person("MATHEW", "14-Mar-2011", "Start", "0.8", "64", "");
-        show_person("PRASOPES", "12-Dec-2011", "LM", "0.35", "72", "");
+        // show_person("PRASOPES", "12-Dec-2011", "LM", "0.35", "72", "");
 
 	// ** 2012 **
-        show_person("SEZI", "11-Jan-2012", "Start", "1.2", "65", "");
+        // show_person("SEZI", "11-Jan-2012", "Start", "1.2", "65", "");
         show_person("VYKTORYJE", "02-Feb-2012", "Camel", "0.75", "76", "");
+        // show_person("GASPODA", "26-Feb-2012", "Lucky Strike", "0.5", "79", "");
 
         // suma
         show_person("", "", "", "", "", "");
