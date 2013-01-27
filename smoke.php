@@ -158,6 +158,9 @@ function show_person($name, $date, $brand, $quantity, $price, $why, $weekly = fa
         show_person("VYKTORYJE", "02-Feb-2012", "Camel", "0.75", "76", "");
         // show_person("GASPODA", "26-Feb-2012", "Lucky Strike", "0.5", "79", "");
 
+	// ** 2013 **
+
+        show_person("TWORBO", "27-Jan-2013", "Marlboro kratke", "0.7", "74", "");
         // suma
         show_person("", "", "", "", "", "");
 
