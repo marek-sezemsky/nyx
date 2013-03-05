@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>[sezi@agape]$ non-smoker list</title>
-<link rel="stylesheet" type="text/css" href="http://www.nyx.cz/skins/forest3/nc.css">
+<link rel="stylesheet" type="text/css" href="//www.nyx.cz/skins/greymatter/nc.css">
 </head>
 <?php
 
@@ -51,7 +51,7 @@ function show_person($name, $date, $brand, $quantity, $price, $why, $weekly = fa
         }
 
         if ( $name ) {
-                print "Nekouri uz <b>" . $days . " dni</b>, znacka cigaret <i>$brand</i>, spotreba " . number_format($quantity, 2, ".", ".") . " balicku kazdy {$m1}.<br><br>";
+                print "Nekouri uz <b>" . $days . " dni</b>, znacka cigaret <i>$brand</i>, spotreba " . number_format($quantity, 2, ".", ".") . " krabky kazdy {$m1}.<br><br>";
                 print "Prumerna cena " . number_format($price, 2, ",", ".") ." {$currency} za baleni, takze celkem usetreno " . number_format($saved, 2, ",", ".") . " {$currency}!<br>";
                 print "Navic dost setri svoje zdravi, protoze si odreklo uz " . number_format($cigarettes, 0, ".", ".") . " cigaret.<br>";
                 if ( $why ) {
@@ -131,7 +131,6 @@ function show_person($name, $date, $brand, $quantity, $price, $why, $weekly = fa
         show_person("MYKO", "30-Oct-2008", "Start", "1.0", "58", "");
         show_person("WYNDMYLL_238", "19-Oct-2008", "Start", "0.8", "58", "");
         show_person("BRUISE", "07-Nov-2008", "modre LM", "0.5", "63", "");
-        show_person("LOUZICKA", "22-Nov-2008", "Tabak", "0.5", "", "");
         show_person("PANDA_JE_MRTVA", "01-Jan-2009", "?", 1, 60, "");
         show_person("HAUSNUMERO", "22-Jan-2009", "Start", 1, 60, "");
         show_person("HAEDIX", "14-Jan-2009", "Marlboro", 1.5, 84, "");
@@ -159,8 +158,9 @@ function show_person($name, $date, $brand, $quantity, $price, $why, $weekly = fa
         // show_person("GASPODA", "26-Feb-2012", "Lucky Strike", "0.5", "79", "");
 
 	// ** 2013 **
-
         show_person("TWORBO", "27-Jan-2013", "Marlboro kratke", "0.7", "74", "");
+        show_person("LOUZICKA", "01-Mar-2013", "", "1", "75", "");
+
         // suma
         show_person("", "", "", "", "", "");
 
