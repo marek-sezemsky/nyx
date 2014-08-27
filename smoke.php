@@ -120,7 +120,6 @@ function show_person($name, $date, $brand, $quantity, $price, $why, $weekly = fa
         show_person("MONYKKA", "01-Jan-2008", "", "", "", "");
         show_person("P4INTER", "02-Jan-2008", "Startky nebo Javanese", "1", "75", "");
         show_person("PEEDIA", "25-Mar-2008", "Marlboro", "1", "74", "");
-        show_person("BOAR", "09-Apr-2008", "Camel", "1", "68", "");
         // show_person("CHEESS", "16-May-2008", "Startky", "1", "50", "");
         show_person("FRIX211", "10-Jun-2008", "Kentky", "1", "74", "");
         show_person("GLAVER", "05-Jul-2008", "", "1.2", "58", "");
@@ -155,13 +154,19 @@ function show_person($name, $date, $brand, $quantity, $price, $why, $weekly = fa
 	// ** 2012 **
         // show_person("SEZI", "11-Jan-2012", "Start", "1.2", "65", "");
         show_person("VYKTORYJE", "02-Feb-2012", "Camel", "0.75", "76", "");
+        show_person("BOAR", "18-Sep-2012", "Camel", "1", "68", "");
+	show_person("OTAKAR", "14-Oct-2012", "Start", "1", "72", "");
+
         // show_person("GASPODA", "26-Feb-2012", "Lucky Strike", "0.5", "79", "");
 
 	// ** 2013 **
+        show_person("LOUZICKA", "01-Jan-2013", "", "1", "75", "");
         show_person("TWORBO", "27-Jan-2013", "Marlboro kratke", "0.7", "74", "");
-        show_person("LOUZICKA", "01-Mar-2013", "", "1", "75", "");
 
+	// ** 2o14 **
+        show_person("NYA", "23-Mar-2014", "Pueblo (tabak)", "0.25", "25", "");
         // suma
+
         show_person("", "", "", "", "", "");
 
 ?>
